@@ -1,0 +1,225 @@
+html{
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	margin: 0;
+	max-width: 100vw;
+	padding: 0;
+	
+}
+
+body{
+	height: 100%;
+	max-width: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	padding: 0px 50px;
+}
+
+nav{
+	font-family: "Open Sans", "Times New Roman", sans-serif;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	margin: 30px auto;
+	position: sticky;
+	text-align: center;
+	width: 100%;
+	top: 20px;
+}
+
+a{
+	color: #d3d3d3;
+	text-decoration: none;
+	padding: 10px 0px;
+}
+
+a:hover{
+		color: white; 
+}
+
+ul{
+	color: white;
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	display: inline-block;
+	letter-spacing: 2px;
+	text-shadow: 2px 5px 8px black;
+}
+
+#logo, a#logoZone{
+	float: left;
+	margin: 5px 0 0 5px;
+	position: fixed;
+	width: 4%;
+	height: auto;
+}
+
+.text{
+	position: relative;
+	color: white;
+	border: 1px solid white;
+	display: inline-block;
+	text-align: center;
+	left: 37.5%;
+	width: 25%;
+	top: 45%;
+	margin-top: 30vh;
+	min-width: 260px;
+}
+
+.mainPage{
+	/*background-image: url(../img/wood.jpg);
+	background-position: center;
+	background-repeat: none;*/
+	background-color: #212121;
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.bigText{
+	font-size: 3rem;
+	margin: 0;
+	padding: 20px 0 0 0;
+	text-shadow: 2px 5px 30px black;
+}
+
+.lightText{
+	font-weight: lighter;
+}
+
+section.aboutSection{
+	background-color: #efefef;
+	color: #212121;
+	font-weight: lighter;
+	height: 40%;
+	min-height: 400px;
+}
+
+#aboutText{
+	float: right;
+	line-height: 1.75rem;
+	margin: 80px 5% 0 0;
+	width: 45%;
+}
+
+img.roundedPic{
+	border-radius: 50%;
+}
+
+img#sanFran{
+	margin: 40px 0 0 10%;
+}
+
+.verDivider{
+	border-right: 2px solid #212121;
+	display: inline-block;
+	height: 220px;
+	margin: 0 0 20px 10%;
+	padding: 0;
+	width: 5px;
+}
+
+section.projectsSection{
+	background-color: #212121;
+	height: 100%;
+	padding-bottom: 8%;
+}
+
+hr{
+	color: white;
+	height: 1px;
+	width: 20%;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+
+
+.row{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.col{
+	display: inline-block;
+	margin: 5% 0  0 0;
+	width: 30%;
+}
+
+.projectsSection h2{
+	color: white;
+	font-size: 2rem;
+	font-weight: lighter;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.projectsSection h3{
+	color: white;
+	font-size: 1rem;
+	font-weight: lighter;
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+}
+
+.projectImg{
+	width: 20%;
+}
+
+section.contactSection{
+	background-color: #efefef;
+	color: #212121;
+	font-weight: lighter;
+	height: 400px;
+}
+
+.contactSection h1{
+	font-size: 3rem;
+	font-weight: lighter;
+	margin: 0 auto;
+	padding: 3% 0;
+	text-align: center;
+	width: 100%;
+}
+
+.contactSection h2{
+	font-size: 1.5rem;
+	font-weight: lighter;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+img.smallIcon{
+	height: auto;
+	width: 100%;
+}
+
+.contactSection li{
+	display: inline-block;
+	padding: 3%;
+	text-align: center;
+	width: 50px;
+}
+
+.contactSection ul{
+	width: 100%;
+}
