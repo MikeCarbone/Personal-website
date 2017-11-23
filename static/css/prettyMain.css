@@ -28,11 +28,12 @@ nav{
 	font-family: "Open Sans", "Times New Roman", sans-serif;
 	font-size: 1.5rem;
 	font-weight: lighter;
-	margin: 30px auto;
-	position: sticky;
+	margin: 70vh auto;
+	position: absolute;
 	text-align: center;
 	width: 100%;
-	top: 20px;
+	/*top: 20px;*/
+	background-color: #212121;
 }
 
 a{
@@ -75,9 +76,9 @@ li{
 	text-align: center;
 	left: 37.5%;
 	width: 25%;
-	top: 45%;
 	margin-top: 30vh;
 	min-width: 260px;
+	min-height: 192px;
 }
 
 .mainPage{
@@ -113,6 +114,7 @@ section.aboutSection{
 	float: right;
 	line-height: 1.75rem;
 	margin: 80px 5% 0 0;
+	min-width: 308px;
 	width: 45%;
 }
 
