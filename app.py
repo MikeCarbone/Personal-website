@@ -7,13 +7,18 @@ class MainHandler(tornado.web.RequestHandler):
 	def get(self):
 		self.render('main.html')
 
+class tempHandler(tornado.web.RequestHandler):
+	def get(self):
+		self.render('underConstruction.html')
+
 settings = dict(
 	template_path = os.path.join(os.path.dirname(__file__), "templates"),
 	static_path = os.path.join(os.path.dirname(__file__), "static"),
 	debug = False
 )
 
-handlers = [(r'/', MainHandler)]
+handlers = [(r'/', MainHandler),
+			(r'/underConstruction', tempHandler)]
 
 def app():
 	print('Server Running...')
