@@ -111,8 +111,6 @@ section.aboutSection{
 	background-color: #efefef;
 	color: #212121;
 	font-weight: lighter;
-	height: 40%;
-	min-height: 400px;
 }
 
 #aboutText{
@@ -128,14 +126,14 @@ img.roundedPic{
 }
 
 img#sanFran{
-	margin: 40px 0 0 10%;
+	padding: 50px 110px;
 }
 
 .verDivider{
 	border-right: 2px solid #212121;
 	display: inline-block;
 	height: 220px;
-	margin: 0 0 20px 10%;
+	margin: 0 0 4% 10%;
 	padding: 0;
 	width: 5px;
 }
@@ -189,7 +187,7 @@ hr{
 }
 
 .projectImg{
-	width: 20%;
+	width: 24%;
 }
 
 /*----------------------Contact Section------------------*/
@@ -198,7 +196,7 @@ section.contactSection{
 	background-color: #efefef;
 	color: #212121;
 	font-weight: lighter;
-	height: 400px;
+	height: 500px;
 }
 
 .contactSection h1{
@@ -235,6 +233,6 @@ img.smallIcon{
 	width: 100%;
 }
 
-#email{
+.email{
 	color: #212121;
 }
