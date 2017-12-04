@@ -236,3 +236,39 @@ img.smallIcon{
 .email{
 	color: #212121;
 }
+
+/*-----------------------------------Dot Nav------------------------------------*/
+
+.navigation{
+-webkit-backface-visibility: hidden;
+z-index: 5;
+position: fixed;
+top: 50px;
+margin-top: -40px;
+}
+
+.navigation ul{
+  list-style: none;
+}
+
+.navigation li{
+height: 20px;
+}
+
+.navigation a{
+display: block;
+width: 13px;
+height: 13px;
+text-indent: -9999px;
+border-radius:25px;
+background-color:#545454;
+}
+
+.navigation a:hover{
+border-radius:25px;
+background-color:#919191;
+}
+.navigation a.active{
+border-radius:25px;
+background-color:#919191;
+}

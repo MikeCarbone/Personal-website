@@ -48,13 +48,21 @@
 				<li><a href="{{ static_url('pdf/resume.pdf') }}"" target="_blank">resume</a></li>
 			</ul>
 		</nav>
-		<section class="mainPage" id="main">
+		<div id="dotNav" class="navigation">
+			<ul>
+				<li><a href="#main">one</a></li>
+				<li><a href="#about">two</a></li>
+				<li><a href="#projects">three</a></li>
+				<li><a href="#contact">four</a></li>
+			</ul>
+		</div>
+		<section class="mainPage mover" id="main">
 			<div class="text">
 				<h1 class="bigText">mike carbone</h1>
 				<h2 class="lightText">interactive digital media, philadelphia, pa</h2>
 			</div>
 		</section>
-		<section class="aboutSection" id="about">
+		<section class="aboutSection mover" id="about">
 			<img class="roundedPic" id="sanFran" alt="Picture of me" src="{{ static_url('img/meYosemite.png') }}">
 			<div class="verDivider"></div>
 			<div id="aboutText">
@@ -62,7 +70,7 @@
 				<h5>TL;DR: I like making cool web apps</h5>
 			</div>
 		</section>
-		<section class="projectsSection" id="projects">
+		<section class="projectsSection mover" id="projects">
 				<div class="row">
 						<div class="col">
 								<a href="http://goBibit.com" target="_blank">
@@ -142,7 +150,7 @@
 						</div>
 				</div>
 		</section>
-		<section class="contactSection" id="contact">
+		<section class="contactSection mover" id="contact">
 			<h1>let's get to work</h1>
 			<h2><a class="email" href="mailto:mfcbone@gmail.com">mfcbone@gmail.com</a></h2>
 			<ul>
