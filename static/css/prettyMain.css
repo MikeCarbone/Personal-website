@@ -114,10 +114,10 @@ section.aboutSection{
 }
 
 #aboutText{
+	display: inline-block;
 	float: right;
 	line-height: 1.75rem;
-	margin: 80px 5% 0 0;
-	min-width: 308px;
+	margin: 5% 5% 0 0;
 	width: 45%;
 }
 
@@ -126,7 +126,10 @@ img.roundedPic{
 }
 
 img#sanFran{
+	max-height: 300px;
+	max-width: 300px;
 	padding: 50px 110px;
+	width: 40%;
 }
 
 .verDivider{
