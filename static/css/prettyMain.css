@@ -240,11 +240,12 @@ img.smallIcon{
 /*-----------------------------------Dot Nav------------------------------------*/
 
 .navigation{
--webkit-backface-visibility: hidden;
-z-index: 5;
-position: fixed;
-top: 50px;
-margin-top: -40px;
+	left: 5px;
+	margin-top: -40px;
+	position: fixed;
+	top: 50px;
+	-webkit-backface-visibility: hidden;
+	z-index: 5;
 }
 
 .navigation ul{
@@ -252,23 +253,27 @@ margin-top: -40px;
 }
 
 .navigation li{
-height: 20px;
+	border-radius: 100%;
+	display: block;
+	height: 20px;
+	width: 20px;
 }
 
 .navigation a{
-display: block;
-width: 13px;
-height: 13px;
-text-indent: -9999px;
-border-radius:25px;
-background-color:#545454;
+	background-color:#545454;
+	/*border-radius: 25px;*/
+	display: block;
+	height: 13px;
+	padding: 0;
+	/*text-indent: -9999px;*/
+	width: 13px;
 }
 
 .navigation a:hover{
-border-radius:25px;
-background-color:#919191;
+	background-color:#919191;
+	border-radius:25px;
 }
 .navigation a.active{
-border-radius:25px;
-background-color:#919191;
+	background-color:#919191;
+	border-radius:25px;
 }
