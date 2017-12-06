@@ -233,8 +233,16 @@ img.smallIcon{
 	width: 100%;
 }
 
-.email{
+.contactSection a:hover{
+	color: #666666;
+}
+
+.dark{
 	color: #212121;
+}
+
+h2#topSend{
+	font-size: .5rem;
 }
 
 /*-----------------------------------Dot Nav------------------------------------*/
