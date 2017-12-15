@@ -117,7 +117,7 @@ section.aboutSection{
 	display: inline-block;
 	float: right;
 	line-height: 1.75rem;
-	margin: 6% 8% 0 0;
+	margin: 5% 15% 0 0;
 	width: 45%;
 }
 
@@ -126,7 +126,7 @@ img.roundedPic{
 }
 
 img#sanFran{
-	margin-left: 7%;
+	margin-left: 10%;
 	max-height: 300px;
 	max-width: 300px;
 	padding: 3%;
