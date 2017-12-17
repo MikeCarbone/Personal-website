@@ -117,10 +117,10 @@ section.aboutSection{
 #aboutText{
 	box-sizing: border-box;
 	display: inline-block;
-	float: right;
+	/*float: right;*/
 	line-height: 1.75rem;
-	margin: 7% 3% 0 3%;
-	overflow: auto;
+	margin: 3% 3% 0 3%;
+	/*overflow: auto;*/
 	padding: 0%;
 	width: 47%;
 }
@@ -130,7 +130,7 @@ img.roundedPic{
 }
 
 img#sanFran{
-	margin-left: 21%;
+	margin-left: 16%;
 	max-height: 300px;
 	max-width: 300px;
 	padding: 3% 0%;
