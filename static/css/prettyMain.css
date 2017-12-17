@@ -111,14 +111,18 @@ section.aboutSection{
 	background-color: #efefef;
 	color: #212121;
 	font-weight: lighter;
+	overflow: auto;
 }
 
 #aboutText{
+	box-sizing: border-box;
 	display: inline-block;
 	float: right;
 	line-height: 1.75rem;
-	margin: 5% 15% 0 0;
-	width: 45%;
+	margin: 7% 3% 0 3%;
+	overflow: auto;
+	padding: 0%;
+	width: 47%;
 }
 
 img.roundedPic{
@@ -126,11 +130,12 @@ img.roundedPic{
 }
 
 img#sanFran{
-	margin-left: 10%;
+	margin-left: 21%;
 	max-height: 300px;
 	max-width: 300px;
-	padding: 3%;
-	width: 40%;
+	padding: 3% 0%;
+	vertical-align: middle;
+	width: 26%;
 }
 
 .verDivider{
@@ -140,6 +145,11 @@ img#sanFran{
 	margin: 0 0 4% 10%;
 	padding: 0;
 	width: 5px;
+}
+
+.bio{
+	margin: 0 auto;
+	vertical-align: middle;
 }
 
 /*----------------Projects Section------------------*/
